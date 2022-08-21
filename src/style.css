@@ -2,40 +2,41 @@
     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   } */
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   margin: 0;
   font-family: Inter, sans-serif;
   height: 100vh;
-  background-color: #282D35;
+  background-color: #282d35;
 }
 
 nav {
   display: flex;
   align-items: center;
-  background-color: #21222A;
-  height: 90px;
+  background-color: #21222a;
+  height: 3rem;
   padding: 30px 25px;
   position: relative;
   z-index: 200;
 }
 
-.nav--logo_text, .nav--title {
+.nav--logo_text,
+.nav--title {
   margin: 0;
 }
 
 .nav--logo_text {
   margin-right: auto;
-  color: #FFBB30;
+  color: #ffbb30;
   font-weight: 700;
   font-size: 1rem;
 }
 
 .nav--title {
-  color: #DEEBF8;
+  color: #deebf8;
   font-weight: 600;
   font-size: 1rem;
 }
@@ -47,7 +48,7 @@ nav {
 
 main {
   padding: 57px 27px;
-  color: white; 
+  color: white;
 }
 
 .hero {
@@ -61,10 +62,10 @@ main {
   left: 0px;
   opacity: 0.3;
   background-repeat: no-repeat;
-  background-position: right 85% ;
+  background-position: right 85%;
 }
 
-h1{
+h1 {
   position: relative;
   z-index: 100;
   font-family: "Kiwi Maru";
@@ -95,6 +96,17 @@ sub {
   max-width: 500px;
 }
 
+.catIcon {
+  padding: 20px;
+  width: 10rem;
+  will-change: filter;
+}
+
+.catIcon:hover {
+  background-color: transparent;
+  filter: drop-shadow(0 0 5em #ffe658);
+}
+
 .main--facts > li {
   line-height: 25px;
   padding-block: 12px;
@@ -108,5 +120,5 @@ sub {
 
 .main--facts > li::marker {
   font-size: 1.5rem;
-  color:  #FFBB30;
+  color: #ffbb30;
 }
